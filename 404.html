@@ -4,23 +4,16 @@
       HTTP Error Encountered
     </title>
     <script>
-function sleep(milliseconds) {
-  var start = new Date().getTime();
-  while (true) {
-    if ((new Date().getTime() - start) >= milliseconds){
-      break;
-    }
-  }
-}
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 function redirectErrorHomepage() {
-  document.getElementById(redirection).innerHTML = "Redirecting..."
-  sleep(getRandomInt(500,15000))
-  window.location.href = "https://ionathan-hope.github.io/"
+  document.getElementById("redirection").innerHTML = "Redirecting...";
+  setTimeout(function() {
+    window.location.href = "https://ionathan-hope.github.io/";
+  }, getRandomInt(500, 15000));
 }
     </script>
   </head>
