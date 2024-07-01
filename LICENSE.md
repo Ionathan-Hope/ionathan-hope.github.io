@@ -1,3 +1,6 @@
+---
+permalink: license.html
+---
 Attribution-NonCommercial 3.0 Unported
 
     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
